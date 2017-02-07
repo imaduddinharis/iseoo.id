@@ -1,0 +1,1 @@
+This is folder for developing iseoo.id web service
