@@ -1,4 +1,6 @@
 <?php
+if(isset($_GET['tid']))
+{
 require 'PHPMailerAutoload.php';
 $mail = new PHPMailer;
 $mail->isSMTP();
@@ -45,5 +47,5 @@ if (!$mail->send()) {
 
 }
 
-
+}
 ?>

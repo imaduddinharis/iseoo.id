@@ -56,6 +56,30 @@
     margin-top: 3px;
     transition: all 0.3s ease;
 	}
+	.team{
+		width:30%;
+		margin-right:20px;
+		box-shadow:0 0 2px 0 #AAA;
+		margin-bottom:20px;
+		border-radius:10px;
+		overflow: hidden;
+		position:relative;
+		cursor: pointer;
+		transition:0.3s ease-in;
+		display:inline-block;
+	}
+	.team:hover{
+		box-shadow:0 0 10px 0 #AAA;
+		transition:0.3s ease-in all;
+	}
+	.team img{
+		width:100%;
+		border-bottom:2px solid cornflowerblue;
+	}
+	.team p{
+		font-size: 18px;
+		margin:0;
+	}
 	</style>
 </head>
 <body>
@@ -71,7 +95,7 @@
 				<h2 class="heading">Integrated System Event Organizer</h2>
 				<h4 class="subheading">Create your own event.</h4>
 				<p>Integrated System Event Organizer (IS.EO) is event management system for make your event more organized. This application will be available on a <i>web</i>, <i>android</i> and <i>ios</i> platform.</p>
-				
+
 			</div>
 	</div>
 </header>
@@ -99,20 +123,9 @@
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container-fluid -->
 </nav>
-<section class="call-to-action" style="background-color:cornflowerblue;padding:10px;">
-	
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center wow animated fadeInUp">
-				<center>
-				<iframe width="100%" height="352" style="border:none;box-shadow:0 0 10px 0 background;"  src="https://www.youtube.com/embed/VnUbCvU5Gkg?autoplay=1">
-</iframe>
-</center>
-			</div>
-	</div>
-</section>
 <section id="book">
 	<div class="container">
-	
+
 		<div class="row">
 
 			<center><h2 class="heading wow animated fadeInUp">Features</h2>
@@ -153,21 +166,29 @@
 				<p class="small wow animated fadeInUp">
 				<img src="img/features.png" style="width:100%;">
 				</p>
-				
+
 			</div>
 		</div>
 	</div>
 </section>
-
 <section class="call-to-action" style="background-color:cornflowerblue;">
-	<div class="container">
+
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 text-center wow animated fadeInUp">
+				<center>
+				<iframe width="100%" height="400" style="border:none;box-shadow:0 0 10px 0 background;"  src="https://www.youtube.com/embed/9JO2N5SdXQ4">
+</iframe>
+</center>
+			</div>
+	</div>
+<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 text-center wow animated fadeInUp">
 				<p class="white">Manage and Control your event with one Apps.</br><b> Coming Soon.</b>
 				</br></br></br><img  src="img/available.png" style="width:60%"/>
 				</p>
 				<p style="font-size:14px;color:#FFF;">type your mail and click SUBSCRIBE to get information about launching apps</p>
-				
+
 				<div class="row">
 				<form action="php/newMail.php" method="post" class="mail-form">
 						<div class="col-sm-6">
@@ -175,9 +196,9 @@
 						</div>
 						<div class="col-sm-6">
 							<button name="buttonSubscribe" type="submit" class="btn btn-green form-control" style="height:50px;background:green;border:2px solid green;" placeholder="subscribe" data-validation="subscribe">Subscribe</button>
-						
+
 						</div>
-				</form>			
+				</form>
 				</div>
 			</div>
 		</div>
@@ -201,7 +222,39 @@
 	</div>
 </section>
 
-<section id="contact">
+<section id="contact" style="background-color:;border-bottom:100px solid cornflowerblue; padding:0;" >
+	<div class="container">
+		<div class="row">
+
+			<center><h2 class="heading wow animated fadeInUp" style="color:crimson; margin-bottom:30px;">Our Team</h2></center>
+				<!-- <h4 class="subheading wow animated fadeInUp">s</h4></center> -->
+<center>
+				<div class="team wow animated fadeInLeft">
+					<img src="img/team/duds.png" alt="duds"/>
+					<p>Imaduddin Haris <br/> Founder &amp; CEO <br/> Integrated System Solutions</p>
+				</div>
+				<div class="team wow animated fadeInUp">
+					<img src="img/team/dzaky.png" alt="duds"/>
+					<p>Imaduddin Haris <br/> Founder &amp; CEO <br/> Integrated System Solutions</p>
+				</div>
+				<div class="team wow animated fadeInRight">
+					<img src="img/team/hizkia.png" alt="duds"/>
+					<p>Imaduddin Haris <br/> Founder &amp; CEO <br/> Integrated System Solutions</p>
+				</div>
+				<div class="team wow animated fadeInLeft">
+					<img src="img/team/haekal.png" alt="duds"/>
+					<p>Imaduddin Haris <br/> Founder &amp; CEO <br/> Integrated System Solutions</p>
+				</div>
+				<div class="team wow animated fadeInRight">
+					<img src="img/team/oji.png" alt="duds"/>
+					<p>Imaduddin Haris <br/> Founder &amp; CEO <br/> Integrated System Solutions</p>
+				</div>
+</center>
+		</div>
+	</div>
+</section>
+<section>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 text-left text-center-mobile wow animated fadeInUp contact-details">
@@ -271,7 +324,7 @@
 <div class="notification-box"><span>Sending...</span></div>
 <div class="mobile-nav">
 	<ul class="menu">
-		
+
 	</ul>
 </div>
 
